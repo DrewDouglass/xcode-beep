@@ -16,5 +16,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func beep(_ sender: Any) {
+    }
 }
 

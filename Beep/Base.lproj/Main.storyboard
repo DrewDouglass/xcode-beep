@@ -21,6 +21,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WK-fL-66l">
                                 <rect key="frame" x="121.5" y="419" width="171" height="58"/>
                                 <state key="normal" title="Button" image="trumpet"/>
+                                <connections>
+                                    <action selector="beep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZO2-Pq-hgI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
